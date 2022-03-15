@@ -3,8 +3,9 @@ The system has been built using AIQOM lab. We used tensorflowjs_wizrd to convert
 
 # Instructions
 1. Clone the repo
-
-`git clone https://github.com/StallionDotAi/aiqom-export-model.git`
+```bash
+git clone https://github.com/StallionDotAi/aiqom-export-model.git
+```
 
 2. Navigate to Folder
 
