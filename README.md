@@ -1,7 +1,7 @@
 # aiqom-export-model
 The system has been built using AIQOM lab. We used tensorflowjs_wizrd to convert the model to keras model (h5) to use in in a webcam python code.
 
-# Instructions
+## Project setup
 1. Clone the repo
 ```bash
 git clone https://github.com/StallionDotAi/aiqom-export-model.git
