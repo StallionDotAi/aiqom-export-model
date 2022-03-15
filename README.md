@@ -8,7 +8,7 @@ git clone https://github.com/StallionDotAi/aiqom-export-model.git
 ```
 2. Navigate to Folder
 ```bash
-cd aiqom-export-model`
+cd aiqom-export-model
 ```
 3. Insert step description here
 ```bashcurl 'INSERT_YOUR_MODELURL_HERE'
