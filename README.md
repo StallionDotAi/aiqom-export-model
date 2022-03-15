@@ -6,24 +6,22 @@ The system has been built using AIQOM lab. We used tensorflowjs_wizrd to convert
 ```bash
 git clone https://github.com/StallionDotAi/aiqom-export-model.git
 ```
-
 2. Navigate to Folder
-
-`cd aiqom-export-model`
-
+```bash
+cd aiqom-export-model`
+```
 3. Insert step description here
-
-`curl 'INSERT_YOUR_MODELURL_HERE'`
-
+```bashcurl 'INSERT_YOUR_MODELURL_HERE'`
+```
 4. 
-
-`pip3 install -r requirements.txt`
-
+```bash
+pip3 install -r requirements.txt`
+```
 5. 
-
-`tensorflowjs_converter --input_format tfjs_layers_model --output_format keras model.json keras;python3 conv.py keras`
-
+```bash
+tensorflowjs_converter --input_format tfjs_layers_model --output_format keras model.json keras;python3 conv.py keras
+```
 6. 
-
-`python webcam.py`
-
+```bash
+python webcam.py`
+```
