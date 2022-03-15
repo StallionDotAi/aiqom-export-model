@@ -1,14 +1,16 @@
 from tensorflow import keras
 import os
+import sys
 import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 
+pb_model_dir = sys.argv[1]
+if os.path.exists(pb_model_dir):
+    print (os.path.basename(pb_model_dir))
 
-# model = tf.keras.models.load_model("saved")
-# tf.keras.models.save_model
+##put it as arg in the command
+#pb_model_dir = "keras"
 
-
-pb_model_dir = "keras"
 h5_model = "mymodel.h5"
 
 # Loading the Tensorflow Saved Model (PB)
