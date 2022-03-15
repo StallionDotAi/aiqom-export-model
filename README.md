@@ -12,17 +12,17 @@ cd aiqom-export-model
 ```
 3. Insert step description here
 ```bash
-curl 'INSERT_YOUR_MODELURL_HERE'
+wget 'INSERT_YOUR_MODELURL_HERE';wget 'INSERT_YOUR_WEIGHTSURL_HERE'
 ```
-4. 
+4. Install the required libraries.
 ```bash
 pip3 install -r requirements.txt`
 ```
-5. 
+5. Convert the model to Keras model.
 ```bash
 tensorflowjs_converter --input_format tfjs_layers_model --output_format keras model.json keras;python3 conv.py keras
 ```
-6. 
+6. Run the model on your webcam.
 ```bash
 python webcam.py
 ```
