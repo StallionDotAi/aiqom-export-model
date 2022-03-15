@@ -6,7 +6,7 @@ The system has been built using AIQOM lab. We used tensorflowjs_wizrd to convert
 ```bash
 git clone https://github.com/StallionDotAi/aiqom-export-model.git
 ```
-2. Navigate to Folder
+2. Navigate to folder
 ```bash
 cd aiqom-export-model
 ```
