@@ -24,5 +24,5 @@ tensorflowjs_converter --input_format tfjs_layers_model --output_format keras mo
 ```
 6. 
 ```bash
-python webcam.py`
+python webcam.py
 ```
