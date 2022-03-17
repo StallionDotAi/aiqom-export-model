@@ -2,7 +2,7 @@
 The system has been built using AIQOM lab. We used tensorflowjs_wizrd to convert the model to keras model (h5) to use in in a webcam python code.
 
 ## Installations:
-- [Anaconda Install] (https://www.anaconda.com/products/individual)
+- [Anaconda Install](https://www.anaconda.com/products/individual)
 - python==3.8.12
   ```bash
     conda create -n aiqom python=3.8
