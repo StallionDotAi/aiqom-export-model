@@ -1,6 +1,30 @@
 # aiqom-export-model
 The system has been built using AIQOM lab. We used tensorflowjs_wizrd to convert the model to keras model (h5) to use in in a webcam python code.
 
+## Installations:
+- [Anaconda Install] (https://www.anaconda.com/products/individual)
+- python==3.8.12
+  ```bash
+    conda create -n aiqom python=3.8
+    conda activate aiqom
+  ```
+- tensorflow==2.8
+  ```bash
+    pip install tensorflow
+  ``` 
+- tensorflowjs[wizard]
+  ```bash
+    pip install tensorflowjs[wizard]
+  ``` 
+- openCV
+  ```bash
+  pip install opencv-python
+  ``` 
+- keras==2.6.*
+  ```bash
+  pip install keras==2.6.*
+  ``` 
+
 ## Project setup
 1. Clone the repo
 ```bash
