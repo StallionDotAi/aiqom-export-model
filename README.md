@@ -20,7 +20,7 @@ pip3 install -r requirements.txt`
 ```
 5. Convert the model to Keras model.
 ```bash
-tensorflowjs_converter --input_format tfjs_layers_model --output_format keras model.json keras;python3 conv.py keras
+tensorflowjs_converter --input_format tfjs_layers_model --output_format keras model.json keras.h5
 ```
 6. Run the model on your webcam.
 ```bash
